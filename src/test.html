@@ -2,12 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Example</title>
-    <script src="test1.js">
-    </script>
+    <title>Shopping list</title>
+    <style>
+        p {
+            color: yellow;
+            font-family: Arial, sans-serif;
+            font-size: 1.2em;
+        }
 
+        body {
+            color: white;
+            background-color: black;
+        }
+
+        .special {
+            font-style: italic;
+        }
+
+        #purchases {
+            border: 1px solid white;
+            background-color: #333;
+            color: #ccc;
+            padding: 1em;
+        }
+
+        #purchases li {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+<h1>what to buy</h1>
+<p title="a gentle reminder">Don't forget to buy this stuff.</p>
+<ul id="purchases">
+    <li>A tin of beans</li>
+    <li class="sale">cheese</li>
+    <li class="sale important">milk</li>
+</ul>
+<script src="test3.js">
+
+</script>
+<p class="special">this paragraph has special class</p>
+<h2 class="special">So does this headline</h2>
 
 </body>
 </html>
