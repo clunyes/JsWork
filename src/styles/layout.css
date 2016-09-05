@@ -32,3 +32,6 @@ img{
     clear: both;
 }
 
+#gallery li{
+    display: inline;
+}
