@@ -6,8 +6,6 @@ function prepareSlideShow() {
     if (!document.getElementById("linklist"))return false;
     var preview = document.getElementById('preview');
     preview.style.position = "absolute";
-    preview.style.left = "0px";
-    preview.style.top = "0px";
     var list = document.getElementById("linklist");
     var links = document.getElementsByTagName("a");
     links[0].onmouseover = function () {

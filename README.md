@@ -1,1 +1,2 @@
 my javascript
+代码都在chrome上跑过了
